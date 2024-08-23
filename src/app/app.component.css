@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.card {
+    background-color: #201b66;
+    height: 60vh;
+    border-radius: 20px;
+}
+
+.row {
+    overflow: hidden;
+    display: flex;
+    width: 1000px;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.col-5 {
+    background-image: url(../assets/images/Calender.jpg);
+    background-size: cover;
+
+}
+
+.col-7 {
+    background-color: #6458DE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 22px;
+    
+}
+
+.gregorian-date-picker {
+    width: 50%;
+    height: 50px;
+    font-size: 30px;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    border-color: #000;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+}
+
+.hijri-date {
+    width: 50%;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    border-color: #000;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+}
